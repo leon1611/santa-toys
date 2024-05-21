@@ -1,0 +1,15 @@
+p {
+    color: #151414; 
+  }
+  
+  button {
+    background-color: #33deb9; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c2dbde; 
+  }
+  
