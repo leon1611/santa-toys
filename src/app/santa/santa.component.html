@@ -1,3 +1,9 @@
-<h1>¡Hola! Soy Santa Claus</h1>
-<p>Tarea para el Elfo: {{ ordenDeSanta }}</p>
+<div>
+    <h1>Fábrica de SantaClaus</h1>
+    <p>Tarea para el Elfo: {{ ordenDeSanta }}</p>
+      <app-elfo [ordenDeSanta]="ordenDeSanta" (messageEvent)="receiveMessage($event)">
+      </app-elfo>
+      <p>Mensaje de Elfo: {{ elfoMessage  }}</p>
+    </div>
+
 

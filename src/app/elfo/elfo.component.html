@@ -1,3 +1,4 @@
-<p>Mensaje para Santa: {{messageEvent}} </p>
-<button nzType="primary" (click)="sendMessage()">Responder a Santa</button>
-
+<div style="padding: 20px;">
+      <button nz-button nzType="primary" (click)="sendMessage()">Responder a Santa</button>
+      <ng-content></ng-content>
+  </div>

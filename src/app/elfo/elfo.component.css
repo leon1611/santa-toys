@@ -1,15 +1,16 @@
 p {
-    color: #151414; 
-  }
+  color: #151414; 
+}
+
+button {
+  background-color: #2c8829; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c63c39; 
+
   
-  button {
-    background-color: #33deb9; 
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #c2dbde; 
-  }
-  
+}

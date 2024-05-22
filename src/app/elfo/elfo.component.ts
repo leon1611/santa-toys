@@ -1,9 +1,10 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { SantaComponent } from '../santa/santa.component';
 
 @Component({
   selector: 'app-elfo',
   standalone: true,
-  imports: [],
+  imports: [SantaComponent],
   templateUrl: './elfo.component.html',
   styleUrl: './elfo.component.css'
 })
